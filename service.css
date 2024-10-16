@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(PICS/scrapes.jpeg);
+}
+
+span {
+    font-style: italic;
+    color: rgba(232, 235, 76, 0.728);
+    font-size: 50px;
+}
+
+#container {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.nav-1 {
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    align-items: flex-end;
+    position: absolute;
+    right: 40px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    cursor: pointer;
+    font-variant: small-caps;
+}
+
+#nav-2 {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+h3 {
+    /* color: rgb(0, 11, 11); */
+    /* background-color: white; */
+    /* border: 3px solid red; */
+    border-radius: 5px;
+    text-align: center;
+}
+.shape {
+    /* border: 5px solid red; */
+    /* background-image: url(PICS/scrapes.jpeg); */
+    
+}
+
+.hero {
+    margin-top: 40px;
+    /* background-color: rgb(14, 13, 16); */
+}
+
+
+

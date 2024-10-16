@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(PICS/constellation.jpg);
+}
+
+#container {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 5px;
+    min-width: 100vw;
+   
+}
+
+.hero {
+    min-width: 100vw;
+    
+}
+
+span {
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: blink;
+    text-shadow: 6px 2px 3px #456745;
+    font-style: italic;
+    color: gold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.nav-1 {
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    align-items: flex-end;
+    position: absolute;
+    right: 40px;
+    margin-bottom: ;
+    color: white;
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#nav-2 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+section {
+    /* background-image: url(PICS/constellation.jpg); */
+    
+}
+
+
